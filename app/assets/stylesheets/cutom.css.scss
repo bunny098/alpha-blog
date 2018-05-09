@@ -1,2 +1,35 @@
+$navbar-default-bg:#fff;
 @import "bootstrap-sprockets";
 @import "bootstrap";
+#logo{
+  float:left;
+  font-size:1.7em;
+  color:	#FF69B4;
+  text-transform:uppercase;
+  letter-spacing:-1px;
+  font-weight:bold;
+  }
+#logo:hover{
+  color:	#FF69B4  ;
+  text-decoration:none;
+}
+
+.center{
+  text-align:center;
+}
+.jumbotron{
+  background-image: asset-url('pexels-photo-265047.jpeg');
+  background-size:cover;
+  height:570px;
+}
+.jumbotron h1{
+  color:#FF69B4  ;
+  text-align:center;
+  margin-bottom:30px;
+  letter-spacing:-1px;
+  font-weight:bold;
+}
+.btn-xlarge{
+  font-size:1.7em;
+  background-color:	#FF69B4  ;
+}
